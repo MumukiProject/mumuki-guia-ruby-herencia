@@ -18,7 +18,7 @@ class SaludoFormal < Saludo
 end
 ```
 
-De esta forma, al enviar el mensaje `saludar` a `SaludoFormal`, `super` **invoca** el método `saludar` de su superclase, `Saludo`.
+De esta forma, al enviar el mensaje `saludar` a `SaludoFormal`, `super` **invoca** el método `saludar` de su superclase, `Saludo`. :wave: 
 
 ```ruby
 ム mi_saludo = SaludoFormal.new
