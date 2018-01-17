@@ -1,6 +1,6 @@
-¡Nuevamente tenemos problemas con el `peso`! :tired_face: No alcanza con que el `Colectivo` lo calcule utilizando únicamente sus ruedas, porque descubrimos que además depende de la cantidad de `@pasajeros` que esté trasladando.
+¡Nuevamente tenemos problemas con el `peso`! :tired_face: No alcanza con que el `Micro` lo calcule utilizando únicamente sus ruedas, porque descubrimos que además depende de la cantidad de `@pasajeros` que esté trasladando.
 
-Y eso nos pone en un problema interesante: de la forma actual, el peso está mal calculado. Pero redefinir `peso` en `Colectivo` implicaría repetir la lógica de `cantidad_de_ruedas * 200`. ¿Hay otra posibilidad?
+Y eso nos pone en un problema interesante: de la forma actual, el peso está mal calculado. Pero redefinir `peso` en `Micro` implicaría repetir la lógica de `cantidad_de_ruedas * 200`. ¿Hay otra posibilidad?
 
 ¡Sí! El mensae `super`. Al utilizar `super` en una subclase, **se evalúa el método con el mismo nombre de su superclase**. Por ejemplo...
 
@@ -26,4 +26,4 @@ De esta forma, al enviar el mensaje `saludar` a `SaludoFormal`, `super` **invoca
 => "Buen día señoras y señores"
 ```
 
-> ¡Ahora te toca a vos! Agregá el método `peso` a `Colectivo`, de modo que se calcule como la `cantidad_de_ruedas` multiplicado por 200, sumado a la cantidad de `@pasajeros` por 80. ¡Recordá utilizar `super` para evitar repetir lógica!
+> ¡Ahora te toca a vos! Agregá el método `peso` a `Micro`, de modo que se calcule como la `cantidad_de_ruedas` multiplicado por 200, sumado a la cantidad de `@pasajeros` por 80. ¡Recordá utilizar `super` para evitar repetir lógica!
