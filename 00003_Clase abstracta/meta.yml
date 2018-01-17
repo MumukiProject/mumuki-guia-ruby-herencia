@@ -1,0 +1,21 @@
+---
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: true
+language: text
+manual_evaluation: false
+choices:
+- value: MedioDeTransporte es una clase abstracta.
+  checked: true
+- value: Mascota es una clase concreta.
+  checked: false
+- value: Las clases abstractas no se instancian.
+  checked: true
+- value: Mascota hereda de Gato.
+  checked: false
+- value: Moto hereda de MedioDeTransporte.
+  checked: true
+- value: Un método abstracto no tiene comportamiento.
+  checked: true
