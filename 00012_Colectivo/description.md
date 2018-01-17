@@ -1,5 +1,0 @@
-¡Estamos de vuelta con un nuevo `MedioDeTransporte`! `Colectivo` :bus: también es una de sus subclases, y tiene algunas variaciones. En principio, además de inicializarse con cero `@litros`, arranca con cero `@pasajeros`.
-
-Al `conducir!` una cierta distancia gasta 0.2 `@litros` por cada kilómetro, y es `ligero?` cuando no lleva `@pasajeros`. Su `cantidad_de_ruedas` es 8.
-
-> Veamos si se entiende: definí la clase `Colectivo`, que hereda de `MedioDeTransporte`, y entiende los mensajes `initialize`, `conducir!`, `ligero?` y `cantidad_de_ruedas`.
