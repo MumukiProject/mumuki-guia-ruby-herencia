@@ -2,3 +2,7 @@
 expectations:
 - binding: "*"
   inspection: DeclaresClass:MedioDeTransporte
+- binding: Auto
+  inspection: Inherits:MedioDeTransporte
+- binding: Moto
+  inspection: Inherits:MedioDeTransporte
