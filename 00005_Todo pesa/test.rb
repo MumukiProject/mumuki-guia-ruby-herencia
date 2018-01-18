@@ -79,5 +79,5 @@ it "cantidad_de_ruedas en MedioDeTransporte es un método abstracto" do
 end
 
 it "MedioDeTransporte no entiende el mensaje peso" do
-  expect(medio.peso).to raise_error
+  expect { medio.peso }.to raise_error
 end
