@@ -6,5 +6,3 @@ expectations:
   inspection: Inherits:MedioDeTransporte
 - binding: peso
   inspection: Uses:cantidad_de_ruedas
-- binding: peso
-  inspection: Uses:cantidad_de_ruedas
