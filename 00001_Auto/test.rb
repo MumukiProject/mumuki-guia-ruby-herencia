@@ -16,7 +16,7 @@ end
 
 it "Un auto gasta 0.05 litros por cada kilómetro que se lo conduce" do
   auto.conducir!(500)
-  expect(auto.litros).to eq 40 - (0.05 * 500)
+  expect(auto.litros).to eq (40 - (0.05 * 500))
 end
 
 it "Un auto es ligero después de conducirlo muchos kilómetros" do
