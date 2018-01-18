@@ -61,3 +61,11 @@ end
 it "ligero? en MedioDeTransporte es un método abstracto" do
   expect(medio.ligero?).to eq nil
 end
+
+it "conducir! en MedioDeTransporte es un método abstracto" do
+  expect(medio.conducir!(23)).to eq nil
+end
+
+it "cantidad_de_ruedas en MedioDeTransporte es un método abstracto" do
+  expect(medio.cantidad_de_ruedas).to eq nil
+end
