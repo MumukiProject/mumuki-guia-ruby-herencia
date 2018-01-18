@@ -5,4 +5,4 @@ expectations:
 - binding: Moto
   inspection: Inherits:MedioDeTransporte
 - binding: peso
-  inspection: Uses:all cantidad_de_ruedas
+  inspection: Uses:cantidad_de_ruedas
