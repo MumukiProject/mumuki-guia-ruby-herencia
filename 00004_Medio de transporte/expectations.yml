@@ -1,14 +1,6 @@
 ---
 expectations:
-- binding: "*"
-  inspection: DeclaresClass:MedioDeTransporte
 - binding: Auto
   inspection: Inherits:MedioDeTransporte
 - binding: Moto
   inspection: Inherits:MedioDeTransporte
-- binding: MedioDeTransporte
-  inspection: DeclaresMethod:ligero?
-- binding: MedioDeTransporte
-  inspection: DeclaresMethod:conducir!
-- binding: MedioDeTransporte
-  inspection: DeclaresMethod:cantidad_de_ruedas
