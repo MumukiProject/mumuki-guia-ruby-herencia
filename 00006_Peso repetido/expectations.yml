@@ -1,0 +1,12 @@
+---
+expectations:
+- binding: Auto
+  inspection: Inherits:MedioDeTransporte
+- binding: Moto
+  inspection: Inherits:MedioDeTransporte
+- binding: Auto
+  inspection: Not:Declares:peso
+- binding: Moto
+  inspection: Not:Declares:peso
+- binding: MedioDeTransporte
+  inspection: Declares:peso
