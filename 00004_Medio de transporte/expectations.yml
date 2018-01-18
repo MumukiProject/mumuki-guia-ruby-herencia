@@ -12,3 +12,5 @@ expectations:
   inspection: DeclaresMethod:conducir!
 - binding: MedioDeTransporte
   inspection: DeclaresMethod:cantidad_de_ruedas
+- binding: Auto
+  inspection: DeclaresSuperclass:MedioDeTransporte
