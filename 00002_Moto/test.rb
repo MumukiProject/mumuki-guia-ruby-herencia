@@ -15,8 +15,8 @@ it "Una moto no es ligera al iniciar" do
 end
 
 it "Una moto gasta 0.1 litros por cada kilómetro que se la conduce" do
-  moto.conducir!(300)
-  expect(moto.litros).to eq (20 - (0.05 * 300))
+  moto.conducir!(150)
+  expect(moto.litros).to eq (20 - (0.1 * 150))
 end
 
 it "Una moto es ligera después de conducirla muchos kilómetros" do
