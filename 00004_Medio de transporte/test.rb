@@ -12,6 +12,7 @@ end
 
 auto = Auto.new
 moto = Moto.new
+medio = MedioDeTransporte.new
 
 it "Un auto inicializa con 40 litros de combustible" do
   expect(auto.litros).to eq 40
@@ -55,4 +56,8 @@ end
 
 it "Una moto tiene cuatro ruedas" do
   expect(moto.cantidad_de_ruedas).to eq 2
+end
+
+it "ligero? en MedioDeTransporte es un método abstracto" do
+  expect(medio.ligero?).to eq nil
 end
