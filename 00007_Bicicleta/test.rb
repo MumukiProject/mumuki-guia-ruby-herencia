@@ -15,7 +15,7 @@ it "Una bicicleta tiene dos ruedas" do
 end
 
 it "Una bicicleta es ligera" do
-  expect(auto.ligero?).to be true
+  expect(bici.ligero?).to be true
 end
 
 it "Una bicicleta que se conduce 20 kilómetros y luego 3 kilómetros tiene 23 kilómetros recorridos" do
