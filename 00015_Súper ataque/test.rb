@@ -60,6 +60,6 @@ it "Si un aliado ataca con 5 puntos de daño a un zombi su salud disminuye en 10
   expect(bouba.salud).to eq 90
 end
 
-it "Persona no define una implementación para beber!" do
+it "beber! en Persona es un método abstracto" do
   expect(persona.beber!).to eq nil
 end
