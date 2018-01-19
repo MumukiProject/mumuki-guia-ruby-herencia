@@ -2,3 +2,11 @@
 expectations:
 - binding: SuperZombi
   inspection: Inherits:Zombi
+- binding: SuperZombi
+  inspection: Not:Declares:gritar
+- binding: SuperZombi
+  inspection: Not:Declares:salud
+- binding: SuperZombi
+  inspection: Not:Declares:sin_vida?
+- binding: Zombi
+  inspection: Not:Declares:regenerarse!
