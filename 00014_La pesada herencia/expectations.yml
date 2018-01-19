@@ -3,8 +3,8 @@ expectations:
 - binding: Micro
   inspection: Inherits:MedioDeTransporte
 - binding: peso
-  inspection: Uses:super
-- binding: peso
   inspection: Not:UsesIf
 - binding: Micro
   inspection: DeclaresMethod:peso
+- binding: peso
+  inspection: Uses:super
