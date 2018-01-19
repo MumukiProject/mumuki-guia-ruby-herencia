@@ -2,3 +2,5 @@
 expectations:
 - binding: peso
   inspection: Uses:cantidad_de_ruedas
+- binding: Bicicleta
+  inspection: Inherits:MedioDeTransporte
