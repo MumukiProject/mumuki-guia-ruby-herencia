@@ -22,7 +22,7 @@ it "Una bicicleta que se conduce 20 kilómetros y luego 3 kilómetros tiene 23 k
   bici.conducir!(20)
   expect(bici.kilometros_recorridos).to eq 20
   bici.conducir!(3)
-  expect(bici.kilometros_recorridos).to eq 3
+  expect(bici.kilometros_recorridos).to eq 23
 end
 
 it "Una bicicleta sigue siendo ligera después de conducirla muchos kilómetros" do
