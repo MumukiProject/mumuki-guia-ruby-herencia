@@ -4,3 +4,9 @@ expectations:
   inspection: Inherits:Persona
 - binding: Aliado
   inspection: Inherits:Persona
+- binding: Persona
+  inspection: DeclaresMethod:atacar!
+- binding: Sobreviviente
+  inspection: Not:DeclaresMethod:energia
+- binding: Aliado
+  inspection: Not:DeclaresMethod:energia
