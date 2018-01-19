@@ -29,3 +29,7 @@ it "Una bicicleta sigue siendo ligera después de conducirla muchos kilómetros"
   bici.ligero?
   expect(bici.ligero?).to be true
 end
+
+it "Una bicicleta pesa 6 kilos" do
+  expect(bici.peso).to eq 6
+end
