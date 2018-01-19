@@ -7,27 +7,27 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: Zombi debe implementar el método gritar
+- value: "`Zombi` debe implementar el método `gritar`"
   checked: true
-- value: Zombi debe implementar el método salud
+- value: "`Zombi` debe implementar el método `salud`"
   checked: true
-- value: Zombi debe implementar el método sin_vida?
+- value: "`Zombi` debe implementar el método `sin_vida?`"
   checked: true
-- value: Zombi debe implementar el método recibir_danio!
+- value: "`Zombi` debe implementar el método `recibir_danio!`"
   checked: true
-- value: Zombi debe implementar el método sabe_correr?
+- value: "`Zombi` debe implementar el método `sabe_correr?`"
   checked: true
-- value: Zombi debe implementar el método regenerarse!
+- value: "`Zombi` debe implementar el método `regenerarse!`"
   checked: false
-- value: SuperZombi debe implementar el método gritar
+- value: "`SuperZombi` debe implementar el método `gritar`"
   checked: false
-- value: SuperZombi debe implementar el método salud
+- value: "`SuperZombi` debe implementar el método `salud`"
   checked: false
-- value: SuperZombi debe implementar el método sin_vida?
+- value: "`SuperZombi` debe implementar el método `sin_vida?`"
   checked: false
-- value: SuperZombi debe implementar el método recibir_danio!
+- value: "`SuperZombi` debe implementar el método `recibir_danio!`"
   checked: true
-- value: SuperZombi debe implementar el método sabe_correr?
+- value: "`SuperZombi` debe implementar el método `sabe_correr?`"
   checked: true
-- value: SuperZombi debe implementar el método regenerarse!
+- value: "`SuperZombi` debe implementar el método `regenerarse!`"
   checked: true
