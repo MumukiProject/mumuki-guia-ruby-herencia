@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: Sobreviviente
+  inspection: Inherits:Persona
+- binding: Aliado
+  inspection: Inherits:Persona
