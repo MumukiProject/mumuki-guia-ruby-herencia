@@ -5,6 +5,7 @@ class Micro
   
   def pasajeros
     @pasajeros
+  end
   
   def diez_pasajeros
     @pasajeros = 10
