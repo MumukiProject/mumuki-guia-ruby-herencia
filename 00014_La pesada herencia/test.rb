@@ -41,8 +41,8 @@ it "Si en un micro suben siete pasajeros y bajan tres quedan cuatro pasajeros" d
   expect(micro.pasajeros).to eq 4
 end
 
-it "Un micro con cuatro pasajeros pesa 1480" do
-  expect(micro.peso).to eq 1480
+it "Un micro con cuatro pasajeros pesa 1520" do
+  expect(micro.peso).to eq 1520
 end
 
 it "Un micro no es ligero cuando tiene pasajeros" do
