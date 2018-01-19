@@ -10,3 +10,5 @@ expectations:
   inspection: Not:Declares:sin_vida?
 - binding: Zombi
   inspection: Not:Declares:regenerarse!
+- binding: SuperZombi
+  inspection: Not:Declares:initialize
