@@ -13,7 +13,7 @@ class Zombi
 end
 
 bouba = Zombi.new
-kiki = Zombi.ne
+kiki = Zombi.new
 zombisexual = Zombi.new
 julian = Aliado.new
 candelo = Aliado.new
