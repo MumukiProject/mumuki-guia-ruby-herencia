@@ -1,6 +1,6 @@
 class Zombi
-  def initialize(salud)
-    @salud = salud
+  def initialize(salud_inicial)
+    @salud = salud_inicial
   end
   
   def salud
@@ -25,8 +25,8 @@ class Zombi
 end
 
 class SuperZombi
-  def initialize(salud)
-    @salud = salud
+  def initialize(salud_inicial)
+    @salud = salud_inicial
   end
 
   def salud
