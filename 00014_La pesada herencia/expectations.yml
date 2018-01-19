@@ -6,3 +6,5 @@ expectations:
   inspection: Uses:super
 - binding: peso
   inspection: Not:UsesIf
+- binding: Micro
+  inspection: DeclaresMethod:peso
