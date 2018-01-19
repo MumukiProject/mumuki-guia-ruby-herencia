@@ -26,7 +26,7 @@ end
 
 it "Si una sobreviviente ataca normalmente su energía no se reduce" do
   juliana.atacar!(kiki, 5)
-  expect(candela.energia).to eq 1000
+  expect(juliana.energia).to eq 1000
 end
 
 it "Si una sobreviviente bebe una bebida energética su energía aumenta un 25%" do
