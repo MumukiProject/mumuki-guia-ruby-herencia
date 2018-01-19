@@ -14,8 +14,8 @@ end
 
 micro = Micro.new
 
-it "Un micro inicializa con 50 litros" do
-  expect(micro.litros).to eq 50
+it "Un micro inicializa con 100 litros" do
+  expect(micro.litros).to eq 100
 end
 
 it "Un micro inicializa con 0 pasajeros" do
@@ -23,7 +23,7 @@ it "Un micro inicializa con 0 pasajeros" do
 end
 
 it "Un micro tiene seis ruedas" do
-  expect(bici.cantidad_de_ruedas).to eq 6
+  expect(micro.cantidad_de_ruedas).to eq 6
 end
 
 it "Un micro es ligero cuando no tiene pasajeros" do
