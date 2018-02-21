@@ -2,7 +2,7 @@
 
 Y eso nos pone en un problema interesante: de la forma actual, el peso está mal calculado. Pero redefinir `peso` en `Micro` implicaría repetir la lógica de `cantidad_de_ruedas * 200`. ¿Hay otra posibilidad?
 
-¡Sí! El mensae `super`. Al utilizar `super` en una subclase, **se evalúa el método con el mismo nombre de su superclase**. Por ejemplo...
+¡Sí! El mensaje `super`. Al utilizar `super` en el método de una subclase, **se evalúa el método con el mismo nombre de su superclase**. Por ejemplo...
 
 ```ruby
 class Saludo
