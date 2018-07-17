@@ -19,3 +19,4 @@ choices:
   checked: true
 - value: Un método abstracto no tiene comportamiento.
   checked: true
+name: Clase abstracta

@@ -31,3 +31,4 @@ choices:
   checked: true
 - value: "`SuperZombi` debe implementar el método `regenerarse!`"
   checked: true
+name: El regreso de los zombis
