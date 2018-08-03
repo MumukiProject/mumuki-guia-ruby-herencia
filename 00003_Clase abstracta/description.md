@@ -27,4 +27,4 @@ end
 
 El símbolo `<` significa "hereda de": por ejemplo, `Cóndor` hereda de `Ave`, que está _más arriba_ en la jerarquía. En la clase abstracta `Ave`, el método `volar!` **no tiene comportamiento** porque el comportamiento lo implementan las clases concretas `Halcón` y `Cóndor`. Entonces, decimos que `volar!` es un **método abstracto**.
 
-¡Uf! ¡Eso fue un montón! :fearful: A ver si quedó claro:
+> ¡Uf! ¡Eso fue un montón! :fearful: A ver si quedó claro. Marcá las opciones correctas:
