@@ -8,7 +8,7 @@ Cada vez que realizan un viaje, transportando una carga expresada en kilogramos,
 * el nivel de deterioro de los camiones cerealeros aumenta tanto como los kilogramos que transportan.
 * el nivel de deterioro de los camiones de frutas y verduras aumenta en 1.
 
-¿Y qué tienen de especiales estos camiones? :thinking: Aunque como siempre podés enviar tu solución las veces que quieras, **no la vamos a evaluar automáticamente**. :open_mouth: Si querés verla en funcionamiento, ¡te invitamos a que la pruebes en la consola!
+¿Y qué tienen de especiales estos camiones? :thinking: Aunque como siempre podés enviar tu solución las veces que quieras, **no la vamos a evaluar automáticamente**. :open_mouth:
 
 > Definí los objetos, clases y métodos necesarios para que la empresa pueda gestionar sus transportes.
 
