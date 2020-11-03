@@ -1,7 +1,7 @@
 Una empresa que se dedica al transporte de cargas en todo el país necesita un programa que le permita gestionar los viajes de sus camiones. Para sus operaciones habituales cuenta con los siguientes tipos de camiones:
 
-* Camiones de frutas y verduras: estos modernos camiones tienen un nivel de deterioro inicial igual a 0 y su carga inicial de nafta es de 200 litros. 
-* Camiones cerealeros: son muy viejos y tienen un nivel de deterioro inicial de 10 para todos los camiones. Su carga de nafta inicial es de 120 litros.
+* _Camiones de frutas y verduras_: estos modernos camiones tienen un nivel de deterioro inicial igual a 0 y su carga inicial de nafta es de 200 litros. 
+* _Camiones cerealeros_: son muy viejos y tienen un nivel de deterioro inicial de 10 para todos los camiones. Su carga de nafta inicial es de 120 litros.
 
 Cada vez que realizan un viaje, transportando una carga expresada en kilogramos, ambos tipos de camiones disminuyen su carga de nafta a la mitad y además:
 
