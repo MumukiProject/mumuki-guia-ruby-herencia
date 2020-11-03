@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: Micro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Micro
   inspection: Inherits:MedioDeTransporte
-- binding: peso
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: peso
   inspection: Not:UsesIf
-- binding: Micro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Micro
   inspection: DeclaresMethod:peso

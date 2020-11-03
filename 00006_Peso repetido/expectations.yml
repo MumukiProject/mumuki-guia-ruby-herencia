@@ -1,12 +1,17 @@
 ---
 expectations:
-- binding: Auto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
   inspection: Inherits:MedioDeTransporte
-- binding: Moto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
   inspection: Inherits:MedioDeTransporte
-- binding: Auto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
   inspection: Not:Declares:peso
-- binding: Moto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
   inspection: Not:Declares:peso
-- binding: MedioDeTransporte
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: MedioDeTransporte
   inspection: Declares:peso

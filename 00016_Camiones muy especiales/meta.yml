@@ -5,6 +5,7 @@ layout: input_right
 editor: code
 type: problem
 extra_visible: false
-manual_evaluation: false
+teacher_info: ''
+manual_evaluation: true
 choices: []
-name: Redefiniendo peso
+name: Camiones muy especiales

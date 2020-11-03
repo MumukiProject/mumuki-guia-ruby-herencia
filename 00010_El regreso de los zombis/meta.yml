@@ -1,4 +1,5 @@
 ---
+locale: es
 tags: []
 layout: input_bottom
 editor: multiple_choice
@@ -7,28 +8,40 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: "`Zombi` debe implementar el método `gritar`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Zombi` debe implementar el método `gritar`"
   checked: true
-- value: "`Zombi` debe implementar el método `salud`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Zombi` debe implementar el método `salud`"
   checked: true
-- value: "`Zombi` debe implementar el método `sin_vida?`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Zombi` debe implementar el método `sin_vida?`"
   checked: true
-- value: "`Zombi` debe implementar el método `recibir_danio!`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Zombi` debe implementar el método `recibir_danio!`"
   checked: true
-- value: "`Zombi` debe implementar el método `sabe_correr?`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Zombi` debe implementar el método `sabe_correr?`"
   checked: true
-- value: "`Zombi` debe implementar el método `regenerarse!`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`Zombi` debe implementar el método `regenerarse!`"
   checked: false
-- value: "`SuperZombi` debe implementar el método `gritar`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`SuperZombi` debe implementar el método `gritar`"
   checked: false
-- value: "`SuperZombi` debe implementar el método `salud`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`SuperZombi` debe implementar el método `salud`"
   checked: false
-- value: "`SuperZombi` debe implementar el método `sin_vida?`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`SuperZombi` debe implementar el método `sin_vida?`"
   checked: false
-- value: "`SuperZombi` debe implementar el método `recibir_danio!`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`SuperZombi` debe implementar el método `recibir_danio!`"
   checked: true
-- value: "`SuperZombi` debe implementar el método `sabe_correr?`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`SuperZombi` debe implementar el método `sabe_correr?`"
   checked: true
-- value: "`SuperZombi` debe implementar el método `regenerarse!`"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`SuperZombi` debe implementar el método `regenerarse!`"
   checked: true
 name: El regreso de los zombis

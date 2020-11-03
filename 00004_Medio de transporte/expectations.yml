@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: Auto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Auto
   inspection: Inherits:MedioDeTransporte
-- binding: Moto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moto
   inspection: Inherits:MedioDeTransporte
