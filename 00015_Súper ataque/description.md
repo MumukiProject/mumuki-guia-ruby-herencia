@@ -15,7 +15,7 @@ class Sobreviviente
   end
 
   def atacar!(zombi, danio)
-    zombi.recibir_danio!(danio)
+    zombi.recibir_danio! danio
   end
 end
 
@@ -33,7 +33,7 @@ class Aliado
   end
 
   def atacar!(zombi, danio)
-    zombi.recibir_danio!(danio)
+    zombi.recibir_danio! danio
     @energia *= 0.95
   end
 end
