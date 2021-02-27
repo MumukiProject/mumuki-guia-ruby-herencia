@@ -1,4 +1,4 @@
-¡Es la hora de movilizarse! Todos los días la gente necesita trasladarse a distintos lugares, ya sea a pie, en tren, en bicicleta... Nosotros no podíamos quedarnos atrás: vamos a implementar nuestros propios [medios de transporte](https://es.wikipedia.org/wiki/Anexo:Medios_de_transporte) en Objetos.
+¡Es la hora de movilizarse! Todos los días la gente necesita trasladarse a distintos lugares, ya sea a pie, en tren, en bicicleta... Nosotros no podíamos quedarnos atrás: vamos a crear nuestros propios [medios de transporte](https://es.wikipedia.org/wiki/Anexo:Medios_de_transporte) en Objetos.
 
 Empecemos por uno simple, el `Auto` :oncoming_automobile: . Las instancias de la clase `Auto` se inicializan con 40 `@litros` de combustible.
 
